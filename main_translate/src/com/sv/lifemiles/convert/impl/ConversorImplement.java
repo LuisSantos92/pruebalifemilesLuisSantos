@@ -46,7 +46,7 @@ public class ConversorImplement {
 				resultado = MorseParse.codificarMorse(text);
 			} else if (binary.equalsIgnoreCase(ConstanteApp.BINARY) && parse) {
 				resultado = BinaryParse.binaryToText(text);
-			} else if (binary.equalsIgnoreCase(ConstanteApp.MORSE) && parse) {
+			} else if (morse.equalsIgnoreCase(ConstanteApp.MORSE) && parse) {
 				resultado=  MorseParse.decodificarMorse(text);
 			}
 
